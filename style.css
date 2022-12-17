@@ -83,6 +83,7 @@ button:hover{
     height: 300px;
 }
 .titledbox h2{
+    text-decoration: none;
     margin-top: 60px;
     text-align: center;
 }
