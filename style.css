@@ -110,28 +110,29 @@ footer{
     margin-left: 150px;
     margin-right: 150px;
 }
-section{
-    border-left: solid 1px;
-    border-right: solid 1px;
+.section1{
+    margin-top: 30px;
+    border: solid 1px;
     border-color: white;
     background-color: rgb(34, 34, 34);
     width: 100%;
-    height: 1000px;
+    height: 450px;
 }
-.general{
-    margin-top: 100px;
-    border-top: solid .1px;
-    border-color: rgb(105, 103, 103);
+.section2{
+    margin-top: 30px;
+    border: solid 1px;
+    border-color: white;
+    background-color: rgb(34, 34, 34);
 }
 .general h3{
-    margin-top: 60px;
+    margin-top: 30px;
     color: white;
     font-size: 28px;
     text-align: center;
 }
 p{
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     color: white;
     font-size: 15px;
 }
