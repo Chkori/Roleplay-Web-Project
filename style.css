@@ -1,15 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background-color: rgb(46, 46, 46);
+    background-image:linear-gradient(#2e2e2d, #d6a502, #2e2e2d)     
 }
 header{
-    border-bottom: solid 1px;
-    border-left: solid 1px;
-    border-right: solid 1px;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+    border-right: solid 2px;
     border-color: white;
     margin-top: 0;
     width: 100%;
@@ -25,11 +26,12 @@ nav{
 .logo{
     color: white;
     font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: papyrus    ;
 }
 .logodesc{
     color: white;
     font-size: 18px;
+    font-family: papyrus;
 }
 span{
     color: rgb(200, 161, 7);
@@ -42,10 +44,11 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
-    font-weight: bold;;
+    font-weight: bold;
+    font-family: papyrus;
 }
 nav ul li a:hover{
-    color: red;
+    color: rgb(200, 161, 7);
     transition: .3s;
 }
 #monaspaknight{
@@ -92,19 +95,21 @@ button:hover{
     cursor: pointer;
     transition: 1s;
     transition-delay: .2s;
+    color: rgb(200, 161, 7);
 }
 .imagebox img{
     width: 320px;
     height: 300px;
 }
 footer{
-    border-top: solid 1px;
-    border-left: solid 1px;
-    border-right: solid 1px;
+    border-top: solid 2px;
+    border-left: solid 2px;
+    border-right: solid 2px;
     border-color: white;
     background-color: rgb(22, 21, 21);
     width: 100%;
     height: 100px;
+    margin-top: 30px;
 }
 .webpage{
     margin-left: 150px;
@@ -112,7 +117,7 @@ footer{
 }
 .section1{
     margin-top: 30px;
-    border: solid 1px;
+    border: solid 2px;
     border-color: white;
     background-color: rgb(34, 34, 34);
     width: 100%;
@@ -120,7 +125,7 @@ footer{
 }
 .section2{
     margin-top: 30px;
-    border: solid 1px;
+    border: solid 2px;
     border-color: white;
     background-color: rgb(34, 34, 34);
 }
@@ -129,10 +134,14 @@ footer{
     color: white;
     font-size: 28px;
     text-align: center;
+    font-family: papyrus;
 }
 p{
     margin-left: 20px;
     margin-top: 20px;
     color: white;
     font-size: 15px;
+}
+a{
+    text-decoration: none   ;
 }
