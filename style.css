@@ -8,11 +8,12 @@ body{
     background-image:linear-gradient(#2e2e2d, #d6a502, #2e2e2d)     
 }
 header{
+    border-top: solid 2px;
     border-bottom: solid 2px;
     border-left: solid 2px;
     border-right: solid 2px;
     border-color: white;
-    margin-top: 0;
+    margin-top: 20px;
     width: 100%;
     background-color: rgb(22, 21, 21);
 }
@@ -105,11 +106,13 @@ footer{
     border-top: solid 2px;
     border-left: solid 2px;
     border-right: solid 2px;
+    border-bottom: solid 2px;
     border-color: white;
     background-color: rgb(22, 21, 21);
     width: 100%;
     height: 100px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .webpage{
     margin-left: 150px;
@@ -137,11 +140,13 @@ footer{
     font-family: papyrus;
 }
 p{
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 20px;
+    margin-bottom: 20px;
     color: white;
     font-size: 15px;
 }
 a{
-    text-decoration: none   ;
+    text-decoration: none;
 }
