@@ -179,3 +179,23 @@ a{
     color: #d6a502;
     margin-top: 20px;
 }
+.item-sec1{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    border: solid 2px;
+    border-color: white;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: papyrus;
+}
+.item-sec1 ul{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.item-sec1 h2{
+    margin-top: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
