@@ -183,6 +183,8 @@ a{
 }
 .factionbox{
     margin-top: 20px;
+    border-top: solid 1px;
+    border-color: rgb(118, 117, 117);
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
