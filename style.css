@@ -193,7 +193,7 @@ a{
 }
 .factionname{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .facflag img{
     width: 249px;
@@ -231,7 +231,17 @@ a{
     margin-left: 30px;
     color: #d6a502;
 }
-.facflag img:hover{
+.facflag:hover{
     transition: 1s;
     transform: scale(1.1);
+}
+.facdesc{
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 202px;
+}
+.facflag{
+    border: solid 1px;
+    border-color: #d6a502;
+    height: 500px;
 }
