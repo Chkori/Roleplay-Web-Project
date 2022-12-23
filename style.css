@@ -72,9 +72,10 @@ button:hover{
     transform: scale(1.3);
     cursor: pointer;
 }
-.mainbox{
+.mainbox {
     display: flex;
     justify-content: space-around;
+    border-bottom: solid 1px;
 }
 .titledbox{
     color: white;
@@ -192,6 +193,7 @@ a{
 }
 .factionname{
     text-align: center;
+    margin-bottom: 20px;
 }
 .facflag img{
     width: 249px;
@@ -228,4 +230,8 @@ a{
     margin-bottom: 30px;
     margin-left: 30px;
     color: #d6a502;
+}
+.facflag img:hover{
+    transition: 1s;
+    transform: scale(1.1);
 }
